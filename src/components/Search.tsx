@@ -44,12 +44,12 @@ export default function PropertySearch() {
 
       <div className="flex space-x-2">
         <button className="px-4 py-2 rounded-t-lg font-semibold bg-netural text-white">
-          For Rent
+          For Commercial
         </button>
       </div>
 
       <div className="p-4 rounded-xl rounded-tl-none shadow-lg bg-white">
-        <h2 className="text-2xl font-bold">Find Your Accessible Homes</h2>
+        <h2 className="text-2xl font-bold">Accessible Spaces for Ambitious Businesses</h2>
 
         <div className="mt-4 space-y-3">
           {/* Keyword input */}

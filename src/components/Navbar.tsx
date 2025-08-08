@@ -63,8 +63,8 @@ const Navbar = () => {
     { href: "/about", label: "About" },
     { href: "/pricing", label: "Pricing" },
     { href: "/contact", label: "Contact" },
-    { href: "https://career.gharpadharo.com/", label : "Careers"},
-    { href: "https://blog.gharpadharo.com/", label: "Blog" }
+    // { href: "https://career.gharpadharo.com/", label : "Careers"},
+    // { href: "https://blog.gharpadharo.com/", label: "Blog" }
  
   ];
 
@@ -224,7 +224,7 @@ const Navbar = () => {
       {/* Main Navbar */}
       <div className="flex items-center">
         <Image alt="logo" src={"/assets/logo.png"} width={60} height={60} />
-        <h1 className="font-semibold text-lg  md:inline">GharPadharo</h1>
+        <h1 className="font-semibold text-lg  md:inline">Commercial.GharPadharo</h1>
       </div>
 
       {/* Desktop Links */}

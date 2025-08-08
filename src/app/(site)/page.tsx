@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Image from "next/image";
 import PropertySearch from "@/components/Search";
@@ -66,15 +66,16 @@ const Page = () => {
           />
 
           <div className="text-5xl lg:text-7xl text-center lg:text-left">
-            <h1 className="font-bold ">Find Your </h1>
+            <h1 className="font-bold ">Find Your Space.</h1>
             <h1 className="font-bold  ">
-              <span className="text-primary">Perfect</span> Room{" "}
+              <span className="text-primary">Fuel Your</span>Success.{" "}
             </h1>
           </div>
           <p className="font-medium text-center lg:text-left">
-            Find a variety of propeties that suits you very easily, forget all
+            Easily discover a variety of commercial properties that fit your
+            business
             <br />
-            difficulties in finding a place for you
+            no more hassles, just the perfect space.
           </p>
           <button className="bg-buttons w-fit py-3 px-6 font-medium rounded-lg text-white lg:flex space-x-1 cursor-pointer hidden ">
             <span>View Rooms</span>
@@ -105,7 +106,9 @@ const Page = () => {
         </div>
 
         <div className="lg:w-1/2 w-full flex flex-col gap-6">
-          <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">Why Choose Us</h2>
+          <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
+            Why Choose Us
+          </h2>
           <p className="text-neutral-600 text-sm lg:text-base">
             It&apos;s our job to make sure that you get the best possible deal
             on the property.
@@ -136,7 +139,7 @@ const Page = () => {
 
       <Testimonials />
 
-       {/* List Your Property */}
+      {/* List Your Property */}
 
       <div className="w-full p-3 lg:px-30">
         <div className="flex flex-col md:flex-row items-center justify-center lg:justify-between bg-[#f3f6fd] rounded-3xl shadow-2xl  w-full h-80 relative">
