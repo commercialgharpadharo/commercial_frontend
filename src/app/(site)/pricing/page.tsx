@@ -76,7 +76,7 @@ const Page = ({
 
       features: [
         { name: "Account creation", available: true },
-        { name: "10 room free listing", available: true },
+        { name: "5 commerical property listing", available: true },
         { name: "90 days validity", available: true },
         { name: "Verified Owner Badge", available: true },
         { name: "Single address", available: true }, // From Premium
@@ -96,7 +96,7 @@ const Page = ({
       numberOfRooms: "999",
       features: [
         { name: "Account creation", available: true },
-        { name: "Unlimited listing", available: true },
+        { name: "10 commerical property listing", available: true },
         { name: "180 days validity", available: true },
         { name: "Verified Owner Badge", available: true },
         { name: "Multiple address", available: true },

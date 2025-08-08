@@ -69,7 +69,7 @@ export default function PropertiesPage() {
           className="flex flex-col"
         >
           <motion.h2 className="text-4xl lg:text-5xl font-bold text-neutral z-10 lg:leading-14">
-            Discover Latest <br />
+            Discover Latest Commercial <br />
             Properties
           </motion.h2>
           <motion.div
@@ -87,7 +87,7 @@ export default function PropertiesPage() {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="flex space-x-3"
         >
-          {["All", "Pg", "Hostel", "Flat"].map((type) => (
+          {["All", "Shop", "Office Space", "Retail Space"].map((type) => (
             <motion.button
               key={type}
               onClick={(e) => {

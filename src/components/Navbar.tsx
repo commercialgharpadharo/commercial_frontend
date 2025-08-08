@@ -65,7 +65,6 @@ const Navbar = () => {
     { href: "/contact", label: "Contact" },
     // { href: "https://career.gharpadharo.com/", label : "Careers"},
     // { href: "https://blog.gharpadharo.com/", label: "Blog" }
- 
   ];
 
   const loggedInLinks =
@@ -73,8 +72,11 @@ const Navbar = () => {
       ? [
           { href: "/owner-dashboard", label: "Dashboard" },
           // { href: "/owner-profile", label: "Profile" },
-          { href: "/owner-dashboard/bookings", label: "Bookings" },                        //owner-bookings done by shubham
-          { href: "/owner-dashboard/properties/add-properties", label: "Add Property" },  //property/add    done by shubham
+          { href: "/owner-dashboard/bookings", label: "Bookings" }, //owner-bookings done by shubham
+          {
+            href: "/owner-dashboard/properties/add-properties",
+            label: "Add Property",
+          }, //property/add    done by shubham
         ]
       : user?.userType === "admin"
       ? [
@@ -224,7 +226,9 @@ const Navbar = () => {
       {/* Main Navbar */}
       <div className="flex items-center">
         <Image alt="logo" src={"/assets/logo.png"} width={60} height={60} />
-        <h1 className="font-semibold text-lg  md:inline">Commercial.GharPadharo</h1>
+        <h1 className="font-semibold text-lg  md:inline">
+          Commercial.GharPadharo
+        </h1>
       </div>
 
       {/* Desktop Links */}
@@ -306,12 +310,25 @@ const Navbar = () => {
             </div>
           </div>
         ) : (
+          // <button
+          //   onClick={() => setIsLoginOpen(true)}
+          //   className="bg-buttons text-white py-2 px-4 rounded-md text-sm font-semibold flex items-center space-x-1"
+          // >
+          //   <UserIcon className="w-5" /> <span>Login</span>
+          //   <span className="hidden md:inline">/Register</span>
+          // </button>
           <button
             onClick={() => setIsLoginOpen(true)}
-            className="bg-buttons text-white py-2 px-4 rounded-md text-sm font-semibold flex items-center space-x-1"
+            className="relative bg-violet-700 hover:bg-blue-800 text-white px-2.5 py-1.5 rounded-full flex items-center space-x-1.5 transition duration-200"
           >
-            <UserIcon className="w-5" /> <span>Login</span>
-            <span className="hidden md:inline">/Register</span>
+            {/* User Icon with Notification Dot */}
+            <div className="relative w-4 h-4">
+              <UserIcon className="w-4 h-4" />
+              <span className="absolute -top-[2px] -right-[2px] block h-1.5 w-1.5 rounded-full bg-red-500 ring-1 ring-white" />
+            </div>
+
+            {/* Dropdown Arrow */}
+            <ChevronDownIcon className="w-4 h-4" />
           </button>
         )}
 

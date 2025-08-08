@@ -107,7 +107,7 @@ const Page = () => {
 
         <div className="lg:w-1/2 w-full flex flex-col gap-6">
           <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
-            Why Choose Us
+             Why Choose Us for Commercial Property
           </h2>
           <p className="text-neutral-600 text-sm lg:text-base">
             It&apos;s our job to make sure that you get the best possible deal
