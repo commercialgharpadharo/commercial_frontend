@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: '/admin-dashboard/ ,/owner-dashboard/ ,/seeker-dashboard/',
         },
-        sitemap: 'https://www.gharpadharo.com/sitemap.xml',
+        sitemap: 'https://commercial.gharpadharo.com/sitemap.xml',
     }
 }

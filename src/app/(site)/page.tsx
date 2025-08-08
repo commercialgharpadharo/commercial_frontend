@@ -39,8 +39,8 @@ const Page = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              url: "https://www.gharpadharo.com/",
-              logo: "https://www.gharpadharo.com/android-chrome-192x192.png",
+              url: "https://commercial.gharpadharo.com/",
+              logo: "https://commercial.gharpadharo.com/android-chrome-192x192.png",
               name: "Ghar Padharo",
             }),
           }}

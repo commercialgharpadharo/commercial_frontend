@@ -14,9 +14,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "GharPadharo",
+  title: "GharPadharo Commercial",
   description:
-    "Ghar Padharo is your all-in-one solution for finding and listing rental rooms, PGs, and shared accommodations across India. Whether you're a student, working professional, or property owner, our platform makes renting seamless and hassle-free. Easily post your property, discover affordable housing options near you, connect with trusted tenants or landlords, and manage listings effortlessly — all in one place. With Ghar Padharo, renting becomes faster, smarter, and stress-free. Join thousands already finding their perfect space!",
+    "Ghar Padharo Commercial is your all-in-one solution for finding and listing commercial properties for rent and lease across India. Whether you're a business owner, entrepreneur, or property investor, our platform makes commercial leasing seamless and hassle-free. Easily post your property, discover affordable office spaces, retail shops, warehouses, and more near you, connect with verified tenants or landlords, and manage listings effortlessly — all in one place. With Ghar Padharo, leasing commercial spaces becomes faster, smarter, and stress-free. Join thousands of businesses already finding their ideal space with us!",
   keywords: [
     "Ghar Padharo",
     "room for rent",
@@ -48,12 +48,12 @@ export const metadata: Metadata = {
 "Hostel/Pg near Upes college",
 
   ],
-  metadataBase: new URL("https://www.gharpadharo.com"),
+  metadataBase: new URL("https://commercial.gharpadharo.com/"),
   openGraph: {
-    title: "Ghar Padharo",
+    title: "Ghar Padharo Commercial",
     description:
       "A smart real estate platform helping you find and list rooms for rent across India with ease.",
-    url: "https://www.gharpadharo.com",
+    url: "https://commercial.gharpadharo.com/",
     siteName: "Ghar Padharo",
     images: [
       {
@@ -107,8 +107,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              url: "https://www.gharpadharo.com/",
-              logo: "https://www.gharpadharo.com/android-chrome-192x192.png",
+              url: "https://commercial.gharpadharo.com/",
+              logo: "https://commercial.gharpadharo.com/android-chrome-192x192.png",
               name: "Ghar Padharo",
             }),
           }}
