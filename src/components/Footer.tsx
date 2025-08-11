@@ -167,11 +167,11 @@ const Footer = () => {
                 +91 7903266907
               </Link>
               <Link
-                href="mailto:gharpadharo@gmail.com"
+                href="mailto:commercial.gharpadharo@gmail.com"
                 className="text-gray-300 flex items-center gap-2 hover:text-buttons text-sm"
               >
                 <EnvelopeIcon className="w-5 h-5" />
-                gharpadharo@gmail.com
+                commercial.gharpadharo@gmail.com
               </Link>
             </div>
           </motion.div>

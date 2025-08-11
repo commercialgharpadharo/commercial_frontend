@@ -43,9 +43,9 @@ const AddProperty: React.FC = () => {
     primeLocation: "",
     googleMapsLocation: "",
     displayName: "",
-    independent: "NON_INDEPENDENT",
+    independent: "STANDALONE",
     furnished: "UNFURNISHED",
-    type: "1R",
+    type: "Office Space",
     rent: "",
     facilities: [],
     owner: "",
@@ -53,7 +53,7 @@ const AddProperty: React.FC = () => {
     description: "",
     availability: true,
     numberOfRooms: 1,
-    isAvaliableFor: "UNISEX",
+    isAvaliableFor: "LEASE",
     isNegotiable: false,
   });
 
@@ -67,7 +67,7 @@ const AddProperty: React.FC = () => {
   ) => {
     const { name, value } = e.target;
     // const checked = (e.target as HTMLInputElement).checked;
-    if (name === "accommodationType" && value !== "PG" && value !== "HOSTEL") {
+    if (name === "accommodationType" && value !== "Office Space" && value !== "Retail Space") {
       setRoomData((prevData) => ({
         ...prevData,
         [name]: value,
@@ -393,8 +393,8 @@ const AddProperty: React.FC = () => {
               ))}
             </select>
           </div>
-          {(roomData.accommodationType === "PG" ||
-            roomData.accommodationType === "HOSTEL") && (
+          {(roomData.accommodationType === "Office Space" ||
+            roomData.accommodationType === "Retail Space") && (
             <div className="space-y-2 pt-8 ">
               <input
                 min={1}
