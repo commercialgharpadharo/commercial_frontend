@@ -40,11 +40,11 @@ export default function PropertyCard({ property }: { property: Property }) {
               Featured
             </span>
           )}
-          {property?.independent !== "NON_INDEPENDENT" && (
+          {property?.independent !== "STANDALONE" && (
             <span className="bg-blue-600 text-white text-xs font-semibold px-2 py-1 rounded-md shadow">
-              {property?.independent === "INDEPENDENT"
-                ? "Independent"
-                : "Semi-Independent"}
+              {property?.independent === "COMMERCIAL_COMPLEX"
+                ? "COMMERCIAL_COMPLEX"
+                : "BUSINESS_PARK"}
             </span>
           )}
           {property?.furnished !== "UNFURNISHED" && (
